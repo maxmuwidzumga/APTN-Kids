@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+html {
+    background-image: url('http://www.aptn.ca/kids/_images/aptn-kids-BG.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: open-sans;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    background: #ffffff;
+    width: 980px;
+    margin-top: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-family: "Open Sans";
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0;
+}
+.container>div {
+    width: 32%;
+}
+.col1 {
+    float: left;
+    margin-left: 0;
+}
+.col2 {
+    float: right;
+    margin-right: 0;
+}
+.col3 {
+    margin: auto;
+    width: 300px;
+    display: block;
+}
+button {
+    padding: 0;
+}
+button:hover {
+    transform: skew(-10deg);
+}
+li:not(.dropdown-header) {
+    margin-left: 20px;
+}
+button.img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.playicon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h3, .dropdown-header {
+	color: #f47b20;
+}
+
+.btn.sharp {
+  border-radius:0;
+}
